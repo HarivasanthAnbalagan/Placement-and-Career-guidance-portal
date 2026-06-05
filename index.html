@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚀 Placement & Career Guidance Portal</h1>
+
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="container">
+
+    <h2>Student Details</h2>
+
+    <label>Student ID</label>
+    <input type="number" id="id">
+
+    <label>Name</label>
+    <input type="text" id="name">
+
+    <label>Department</label>
+    <input type="text" id="department">
+
+    <label>CGPA</label>
+    <input type="number" step="0.1" id="cgpa">
+
+    <label>Year</label>
+    <select id="year">
+        <option value="1">First Year</option>
+        <option value="2">Second Year</option>
+        <option value="3">Third Year</option>
+        <option value="4">Fourth Year</option>
+    </select>
+
+    <button onclick="showRoadMap()">Show RoadMap</button>
+    <button onclick="showCompanies()">Company Preparation</button>
+    <button onclick="checkEligibility()">Check Eligibility</button>
+
+    <div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+<div class="tagline">
+     Plan • Prepare • Get Placed
+</div>
+</body>
+</html>
